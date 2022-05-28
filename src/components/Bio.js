@@ -86,7 +86,7 @@ const Bio = () => {
           </div>
         </div>
         <div className="flex w-full justify-center xl:justify-end md:w-[60%] lg:w-[60%] xl:w-[70%] sm:w-[60%]">
-          <div className="w-[250px] h-[250px] xl:w-[400px] xl:h-[400px] lg:w-[400px] lg:h-[400px] md:w-[400px] sm:w-[400px] sm:h-[400px] md:h-[400px] object-cover">
+          <div className="w-[350px] h-[350px] xl:w-[400px] xl:h-[400px] lg:w-[400px] lg:h-[400px] md:w-[400px] sm:w-[400px] sm:h-[400px] md:h-[400px] object-cover">
             <Lottie
               options={defaultOptions}
               // height={400}
