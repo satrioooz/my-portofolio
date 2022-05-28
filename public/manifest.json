@@ -8,13 +8,13 @@
       "type": "image/png"
     },
     {
-      "src": "../src/images/manwork.gig",
-      "type": "gif/gif",
+      "src": "hero.png",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "../src/images/.gif",
-      "type": "image/gif",
+      "src": "hero.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
