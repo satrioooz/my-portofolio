@@ -1,0 +1,50 @@
+#checkbox {
+  display: none;
+}
+.toggle {
+  height: 30px;
+  width: 76px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  cursor: pointer;
+  background: linear-gradient(to top, #3fccff, #1c71d2);
+  border-radius: 9999px;
+  box-shadow: 7px 7px 10px #00000018;
+}
+#graphic {
+  width: 30px;
+  position: absolute;
+  right: 2%;
+  transform-origin: center;
+  transform-box: fill-box;
+  transition: all 0.5s ease-in-out;
+}
+#graphic > * {
+  fill: #ffc750;
+  transition: all 0.5s ease-in-out;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#croissant {
+  transform: rotate(360deg);
+  opacity: 0;
+}
+
+#checkbox:checked + .toggle {
+  background: linear-gradient(to top, #0a5b8d, #011638);
+}
+
+#checkbox:checked + .toggle #graphic {
+  transform: translateX(-150%) rotate(360deg);
+}
+
+#checkbox:checked + .toggle #sung {
+  opacity: 0;
+}
+
+#checkbox:checked + .toggle #croissant {
+  transform: scale(1.2);
+  opacity: 1;
+}
